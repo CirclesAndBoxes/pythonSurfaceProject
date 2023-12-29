@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkmazeenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copiedmazemodels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazeenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake_folder/checkenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake_folder/copiedsnake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake_folder/copiedsnakemodels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake_folder/snakeenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snake_folder/snakegame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing-thing.py" afterDir="false" />
-    </list>
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="tried to make custom environment x2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +110,28 @@
       <option name="presentableId" value="Default" />
       <updated>1703281009831</updated>
     </task>
+    <task id="LOCAL-00001" summary="tried to make custom environment">
+      <option name="closed" value="true" />
+      <created>1703882954668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703882954668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tried to make custom environment x2">
+      <option name="closed" value="true" />
+      <created>1703883178754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703883178754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tried to make custom environment" />
+    <MESSAGE value="tried to make custom environment x2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to make custom environment x2" />
   </component>
 </project>
