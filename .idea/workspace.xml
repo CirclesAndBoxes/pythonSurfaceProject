@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="tried to make custom environment x2" />
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="tried to make custom environment x2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copiedmazemodels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake_folder/copiedsnakemodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake_folder/copiedsnakemodels.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,32 +35,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.checkenv.executor": "Run",
-    "Python.checkmazeenv.executor": "Run",
-    "Python.copiedmazemodels.executor": "Run",
-    "Python.copiedsnake.executor": "Run",
-    "Python.copiedsnakemodels.executor": "Run",
-    "Python.lunar_lander.executor": "Run",
-    "Python.maze_game.executor": "Run",
-    "Python.mazeenv.executor": "Run",
-    "Python.mazemodel.executor": "Run",
-    "Python.passive_env_checker.executor": "Run",
-    "Python.ppo.executor": "Run",
-    "Python.snake_env.executor": "Run",
-    "Python.snakeenv.executor": "Run",
-    "Python.snakegame.executor": "Run",
-    "Python.testing-thing.executor": "Run",
-    "Python.testing2.executor": "Run",
-    "Python.testing3.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/linkj/PycharmProjects/pythonProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.checkenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkmazeenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copiedmazemodels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copiedsnake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copiedsnakemodels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lunar_lander.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mazeenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mazemodel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.passive_env_checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ppo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake_env.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snakeenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snakegame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing-thing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/linkj/PycharmProjects/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject" />

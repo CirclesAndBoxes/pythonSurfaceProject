@@ -4,9 +4,22 @@ from stable_baselines3 import PPO
 import os
 from copiedsnake import SnekEnv
 import time
+#Following taken from https://www.programiz.com/python-programming/datetime/current-datetime
+from datetime import datetime
+
+# datetime object containing current date and time
+now = datetime.now()
+
+print("now =", now)
+
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%b-%d-%Y-%H-%M")
+
+#End citation
+
 
 models_dir = f"models/{int(time.time())}/"
-logdir = f"logs/{int(time.time())}/"
+logdir = f"logs/{int(time.time())}" + "_" + dt_string + "/"
 
 if not os.path.exists(models_dir):
     os.makedirs(models_dir)

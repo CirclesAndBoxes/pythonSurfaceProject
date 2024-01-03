@@ -2,9 +2,18 @@ from stable_baselines3 import PPO
 import os
 from mazeenv import MazeEnv
 import time
+from datetime import datetime
+
+# Following lines of code taken from website
+now = datetime.now()
+print("now =", now)
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%b-%d-%Y-%H-%M")
+
 
 models_dir = f"models/{int(time.time())}/"
-logdir = f"logs/{int(time.time())}/"
+logdir = f"logs/{int(time.time())}" + "_" + dt_string + "/"
+
 
 if not os.path.exists(models_dir):
     os.makedirs(models_dir)
