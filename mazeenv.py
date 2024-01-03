@@ -72,11 +72,11 @@ class MazeEnv(gym.Env):
                       (0, 255, 0), 3)
 
         # Magic: takes step after fixed time code?
-        t_end = time.time() + 0.05
+        t_end = time.time() + 0.001
         k = -1
         while time.time() < t_end:
             if k == -1:
-                k = cv2.waitKey(1)
+                k = cv2.waitKey(0)
             else:
                 continue
 
@@ -149,7 +149,7 @@ class MazeEnv(gym.Env):
 
         # Punish for not ending/bumping into wall already above.
         if self.done:
-            self.reward = 100
+            self.reward = 200
 
 
         # Observations here
@@ -216,7 +216,7 @@ class MazeEnv(gym.Env):
         self.reward = -1
 
         if self.done:
-            self.reward = 100
+            self.reward = 200
         # Observations here
         info = {}
 
