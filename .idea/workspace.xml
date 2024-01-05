@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="tried to make custom environment x2">
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Tweaked timing and rewards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copiedmazemodels.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake_folder/copiedsnakemodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake_folder/copiedsnakemodels.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -132,12 +130,30 @@
       <option name="project" value="LOCAL" />
       <updated>1703883178754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Debugged Custom Environment: not sure exactly what changed, but its better now">
+      <option name="closed" value="true" />
+      <created>1704255139460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255139460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tweaked timing and rewards">
+      <option name="closed" value="true" />
+      <created>1704255223284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255223285</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tried to make custom environment" />
     <MESSAGE value="tried to make custom environment x2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to make custom environment x2" />
+    <MESSAGE value="Debugged Custom Environment: not sure exactly what changed, but its better now" />
+    <MESSAGE value="Tweaked timing and rewards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaked timing and rewards" />
   </component>
 </project>

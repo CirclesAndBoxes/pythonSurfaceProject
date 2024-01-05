@@ -188,6 +188,8 @@ class MazeEnv(gym.Env):
         else:
             down_side = 0
 
+        # Adding left/right/etc. sides helps teach the robot learn faster
+        # Maybe try without left/right/etc., see if it takes longer
         observation = [pos_x, pos_y, left_side, right_side, up_side, down_side]
         observation = np.array(observation)
 
@@ -256,6 +258,7 @@ class MazeEnv(gym.Env):
         observation = [pos_x, pos_y, left_side, right_side, up_side, down_side]
         observation = np.array(observation)
 
+        # An Unneeded line, but one that lets us know the length it takes on average
         print(self.reward)
 
         return observation, info
