@@ -5,14 +5,11 @@ import cv2
 import random
 import time
 from collections import deque
+import generated_maze
 
-maze = [[1, 0, 1, 2, 1, 1, 0],
-        [0, 0, 0, 0, 1, 0, 0],
-        [0, 1, 1, 1, 1, 0, 1],
-        [0, 0, 0, 0, 0, 0, 1],
-        [0, 1, 1, 1, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [0, 0, 1, 0, 1, 1, 1]]
+
+maze = generated_maze.generate_maze(4, 4)
+maze[0][3] = 2
 
 
 def collision_with_apple(apple_position, score):
@@ -44,20 +41,27 @@ def collision_with_maze(position):
         return False
 
 
-class MazeEnv(gym.Env):
+def been_here_last_two(position, last_position):
+    if position[0] == last_position[0] and position[1] == last_position[1]:
+        return True
+    else:
+        return False
+
+
+class MazeEnv2(gym.Env):
     """Custom Environment that follows gym interface."""
 
     # metadata = {"render_modes": ["human"], "render_fps": 30}
 
     def __init__(self):
-        super(MazeEnv, self).__init__()
+        super(MazeEnv2, self).__init__()
         # Define action and observation space
         # They must be gym.spaces objects
         # Example when using discrete actions:
         self.action_space = spaces.Discrete(4)
-        # Example for using image as input (channel-first; channel-last also works):
+        # Example for using image as input (channel-first; channel-last also works) Shape must be exact:
         self.observation_space = spaces.Box(low=-20, high=500,
-                                            shape=(6,), dtype=np.int32)
+                                            shape=(9,), dtype=np.int32)
 
     def step(self, action):
         cv2.imshow('a', self.img)
@@ -129,7 +133,7 @@ class MazeEnv(gym.Env):
             elif button_direction == 3:
                 self.seen_position[1] -= -70
                 self.player_pos[0] -= -1
-            self.reward = -10
+            self.reward = -5
         elif collision_with_maze(self.player_pos):
             if button_direction == 1:
                 self.seen_position[0] += -70
@@ -143,13 +147,21 @@ class MazeEnv(gym.Env):
             elif button_direction == 3:
                 self.seen_position[1] -= -70
                 self.player_pos[0] -= -1
-            self.reward = -10
+            self.reward = -5
+
+        # Checks if was in same place 2 steps ago:
+        if been_here_last_two(self.player_pos, self.last_two_pos):
+            self.reward += -1
+            was_here = 1
+        else:
+            was_here = 0
+
 
         # Rewards here:
 
         # Punish for not ending/bumping into wall already above.
         if self.done:
-            self.reward = 200
+            self.reward = 150
 
 
         # Observations here
@@ -188,16 +200,29 @@ class MazeEnv(gym.Env):
         else:
             down_side = 0
 
+        two_ago_x, two_ago_y = self.last_two_pos[0], self.last_two_pos[1]
+
         # Adding left/right/etc. sides helps teach the robot learn faster
         # Maybe try without left/right/etc., see if it takes longer
-        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side]
+        temp_maze = deque(maxlen=7)
+        # Include last step
+        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y] + list(temp_maze)
         observation = np.array(observation)
+
+        self.last_two_pos = self.last_pos
+        self.last_pos = self.player_pos
 
         # check this line
         return observation, self.reward, self.done, False, info
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
+        global maze
+        # Issue is that maze is currently not being sent out to the outside
+
+        # Resets last two positions
+        self.last_pos = [6, 3]
+        self.last_two_pos = [6, 3]
 
         #Next line is done twice
         self.done = False
@@ -255,11 +280,22 @@ class MazeEnv(gym.Env):
         else:
             down_side = 0
 
-        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side]
+
+        # Some new variables
+        was_here = 0
+
+        two_ago_x, two_ago_y = self.last_two_pos[0], self.last_two_pos[1]
+
+        temp_maze = deque(maxlen=7)
+
+        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y] + list(temp_maze)
         observation = np.array(observation)
 
         # An Unneeded line, but one that lets us know the length it takes on average
         print(self.reward)
+
+        maze = generated_maze.generate_maze(4, 4)
+        maze[0][3] = 2
 
         return observation, info
 

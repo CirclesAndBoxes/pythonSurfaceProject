@@ -371,3 +371,23 @@ ypy-websocket @ file:///C:/b/abs_4e65ywlnv8/croot/ypy-websocket_1684172103529/wo
 zict @ file:///C:/b/abs_fc7elavmem/croot/zict_1682698759288/work
 zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
 zope.interface @ file:///C:/ci_310/zope.interface_1642113633904/work
+
+jupyter~=1.0.0
+pip~=23.2.1
+panel~=1.2.3
+attrs~=22.1.0
+toml~=0.10.2
+zlib~=1.2.13
+wheel~=0.38.4
+brotli~=1.0.9
+openssl~=3.0.10
+cryptography~=41.0.3
+lxml~=4.9.3
+pillow~=9.4.0
+docutils~=0.18.1
+sphinx~=5.0.2
+tornado~=6.3.2
+jinja2~=3.1.2
+keyring~=23.13.1
+setuptools~=68.0.0
+numpy~=1.24.3

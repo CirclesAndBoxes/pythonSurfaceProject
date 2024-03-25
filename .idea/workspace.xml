@@ -4,16 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Tweaked timing and rewards">
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Added requirements.txt">
+      <change afterPath="$PROJECT_DIR$/generated_maze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maze_load_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maze_save_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mazeenv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1704253737_2/10000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1704253737_2/20000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1704253737_2/30000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1704253737_2/40000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal_use/electricfield.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkmazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkmazeenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1703879710/PPO_0/events.out.tfevents.1703879712.DESKTOP-47QPH3P.39948.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -23,6 +40,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CirclesAndBoxes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="50b04e28-e47d-4b7f-aa6f-072155003c9b" />
+        <option name="url" value="https://github.com/CirclesAndBoxes/pythonSurfaceProject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -40,9 +74,13 @@
     &quot;Python.copiedmazemodels.executor&quot;: &quot;Run&quot;,
     &quot;Python.copiedsnake.executor&quot;: &quot;Run&quot;,
     &quot;Python.copiedsnakemodels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.electricfield.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generated_maze.executor&quot;: &quot;Run&quot;,
     &quot;Python.lunar_lander.executor&quot;: &quot;Run&quot;,
     &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maze_load_model.executor&quot;: &quot;Run&quot;,
     &quot;Python.mazeenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mazeenv2.executor&quot;: &quot;Run&quot;,
     &quot;Python.mazemodel.executor&quot;: &quot;Run&quot;,
     &quot;Python.passive_env_checker.executor&quot;: &quot;Run&quot;,
     &quot;Python.ppo.executor&quot;: &quot;Run&quot;,
@@ -62,14 +100,38 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\linkj\PycharmProjects\pythonProject\models" />
+      <recent name="C:\Users\linkj\PycharmProjects\pythonProject\logs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\linkj\PycharmProjects\pythonProject\snake_folder" />
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject" />
+      <recent name="C:\Users\linkj\PycharmProjects\pythonProject\snake_folder" />
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject\venv1" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="generated_maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generated_maze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mazeenv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -94,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generated_maze" />
         <item itemvalue="Python.mazeenv" />
       </list>
     </recent_temporary>
