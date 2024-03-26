@@ -60,8 +60,8 @@ class MazeEnv2(gym.Env):
         # Example when using discrete actions:
         self.action_space = spaces.Discrete(4)
         # Example for using image as input (channel-first; channel-last also works) Shape must be exact:
-        self.observation_space = spaces.Box(low=-20, high=500,
-                                            shape=(9,), dtype=np.int32)
+        self.observation_space = spaces.Box(low=-20, high=1001,
+                                            shape=(109,), dtype=np.int32)
 
     def step(self, action):
         cv2.imshow('a', self.img)
@@ -93,6 +93,9 @@ class MazeEnv2(gym.Env):
                     cv2.rectangle(self.img, (j * 70, i * 70), (j * 70 + 70, i * 70 + 70),
                                   (255, 255, 255), 3)
 
+
+
+
         # Action
         button_direction = action
 
@@ -100,15 +103,19 @@ class MazeEnv2(gym.Env):
         if button_direction == 1:
             self.seen_position[0] += 70
             self.player_pos[1] += 1
+            self.last_direction = 1
         elif button_direction == 0:
             self.seen_position[0] -= 70
             self.player_pos[1] -= 1
+            self.last_direction = 0
         elif button_direction == 2:
             self.seen_position[1] += 70
             self.player_pos[0] += 1
+            self.last_direction = 2
         elif button_direction == 3:
             self.seen_position[1] -= 70
             self.player_pos[0] -= 1
+            self.last_direction = 3
 
         # End game when reaching ends
         if self.seen_position == self.apple_position:
@@ -116,6 +123,11 @@ class MazeEnv2(gym.Env):
             self.img = np.zeros((490, 490, 3), dtype='uint8')
             cv2.putText(self.img, 'You win!', (140, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
             cv2.imshow('a', self.img)
+            self.done = True
+
+        # Also ending game if too many steps are taken
+        if self.steps_left < 0:
+            self.reward = -100
             self.done = True
 
         self.reward = -1
@@ -157,11 +169,15 @@ class MazeEnv2(gym.Env):
             was_here = 0
 
 
+
         # Rewards here:
 
         # Punish for not ending/bumping into wall already above.
-        if self.done:
-            self.reward = 150
+        if self.done and self.steps_left >= 0:
+            self.reward = 300
+        elif self.done:
+            self.reward = -100
+
 
 
         # Observations here
@@ -201,16 +217,38 @@ class MazeEnv2(gym.Env):
             down_side = 0
 
         two_ago_x, two_ago_y = self.last_two_pos[0], self.last_two_pos[1]
+        last_direction = self.last_direction
+        steps_left = self.steps_left
+
+        # Punishment if returning to previous position
+        if self.been_maze[pos_y][pos_x] > 0:
+            self.reward -= 1
+
+        # Remember previous steps -- WARNING SOMEHOW GENERATES NEW BLOCKS IDK HOW BUT HOPEFULLY THIS CHANGES STUFF
+        self.been_maze[pos_y][pos_x] += 3
+
 
         # Adding left/right/etc. sides helps teach the robot learn faster
         # Maybe try without left/right/etc., see if it takes longer
-        temp_maze = deque(maxlen=7)
+
         # Include last step
-        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y] + list(temp_maze)
+        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y,
+                       last_direction, steps_left]
+        # Adds another 49 observations
+        for row in maze:
+            for element in row:
+                observation.append(element)
+        # Then adds another 49 observations
+        for row in self.been_maze:
+            for element in row:
+                observation.append(element)
+
         observation = np.array(observation)
 
         self.last_two_pos = self.last_pos
         self.last_pos = self.player_pos
+        self.last_direction = action
+        self.steps_left -= 1
 
         # check this line
         return observation, self.reward, self.done, False, info
@@ -219,10 +257,16 @@ class MazeEnv2(gym.Env):
         super().reset(seed=seed)
         global maze
         # Issue is that maze is currently not being sent out to the outside
+        # Builds the maze in front
+        maze = generated_maze.generate_maze(4, 4)
+        maze[0][3] = 2
 
         # Resets last two positions
         self.last_pos = [6, 3]
         self.last_two_pos = [6, 3]
+
+        # Resets the number of steps left
+        self.steps_left = 1000
 
         #Next line is done twice
         self.done = False
@@ -234,16 +278,20 @@ class MazeEnv2(gym.Env):
 
         self.prev_button_direction = 1
         self.button_direction = 1
+        self.last_direction = -1
 
         self.player_pos = [6, 3]
 
         self.done = False
 
         # More Stuff
-        self.reward = -1
+        self.reward = 0
+
+        # Maze of where the agent has been
+        self.been_maze = maze
 
         if self.done:
-            self.reward = 200
+            self.reward = 300
         # Observations here
         info = {}
 
@@ -286,16 +334,27 @@ class MazeEnv2(gym.Env):
 
         two_ago_x, two_ago_y = self.last_two_pos[0], self.last_two_pos[1]
 
-        temp_maze = deque(maxlen=7)
-
-        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y] + list(temp_maze)
-        observation = np.array(observation)
+        last_direction = self.last_direction
+        steps_left = self.steps_left
+        # I moved the observation down.
 
         # An Unneeded line, but one that lets us know the length it takes on average
         print(self.reward)
 
-        maze = generated_maze.generate_maze(4, 4)
-        maze[0][3] = 2
+
+
+        observation = [pos_x, pos_y, left_side, right_side, up_side, down_side, was_here, two_ago_x, two_ago_y,
+                       last_direction, steps_left]
+        # Adds another 49 observations
+        for row in maze:
+            for element in row:
+                observation.append(element)
+        # Then adds another 49 observations
+        for row in self.been_maze:
+            for element in row:
+                observation.append(element)
+
+        observation = np.array(observation)
 
         return observation, info
 

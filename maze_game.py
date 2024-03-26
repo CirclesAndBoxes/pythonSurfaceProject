@@ -3,18 +3,14 @@ import numpy as np
 import cv2
 import random
 import time
+import generated_maze
 
 # a 7 by 7 maze. 1 means wall, 0 means gap, 2 means exit
 # Positions: [row][column]
 # Initial position: maze[6][3]
 # Final position: maze[0][3]
-maze = [[1, 0, 1, 2, 1, 1, 0],
-        [0, 0, 0, 0, 1, 0, 0],
-        [0, 1, 1, 1, 1, 0, 1],
-        [0, 0, 0, 0, 0, 0, 1],
-        [0, 1, 1, 1, 1, 0, 1],
-        [1, 0, 0, 0, 0, 0, 1],
-        [0, 0, 1, 0, 1, 1, 1]]
+maze = generated_maze.generate_maze(4, 4)
+maze[0][3] = 2
 
 def collision_with_apple(apple_position, score):
     apple_position = [random.randrange(1, 50) * 10, random.randrange(1, 50) * 10]

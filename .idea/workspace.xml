@@ -4,20 +4,162 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Added requirements.txt">
-      <change afterPath="$PROJECT_DIR$/generated_maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze_load_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze_save_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazeenv2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1704253737_2/10000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1704253737_2/20000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1704253737_2/30000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1704253737_2/40000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal_use/electricfield.py" afterDir="false" />
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Returning with small edits">
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472041.DESKTOP-47QPH3P.12324.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472105.DESKTOP-47QPH3P.12324.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472169.DESKTOP-47QPH3P.12324.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472233.DESKTOP-47QPH3P.12324.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472297.DESKTOP-47QPH3P.12324.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472361.DESKTOP-47QPH3P.12324.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472425.DESKTOP-47QPH3P.12324.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472487.DESKTOP-47QPH3P.12324.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472549.DESKTOP-47QPH3P.12324.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472613.DESKTOP-47QPH3P.12324.9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472675.DESKTOP-47QPH3P.12324.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472737.DESKTOP-47QPH3P.12324.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472800.DESKTOP-47QPH3P.12324.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472861.DESKTOP-47QPH3P.12324.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472924.DESKTOP-47QPH3P.12324.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711472984.DESKTOP-47QPH3P.12324.15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473043.DESKTOP-47QPH3P.12324.16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473103.DESKTOP-47QPH3P.12324.17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473162.DESKTOP-47QPH3P.12324.18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473221.DESKTOP-47QPH3P.12324.19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473281.DESKTOP-47QPH3P.12324.20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473340.DESKTOP-47QPH3P.12324.21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473400.DESKTOP-47QPH3P.12324.22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473459.DESKTOP-47QPH3P.12324.23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473519.DESKTOP-47QPH3P.12324.24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473578.DESKTOP-47QPH3P.12324.25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473637.DESKTOP-47QPH3P.12324.26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473696.DESKTOP-47QPH3P.12324.27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473755.DESKTOP-47QPH3P.12324.28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473815.DESKTOP-47QPH3P.12324.29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473874.DESKTOP-47QPH3P.12324.30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473934.DESKTOP-47QPH3P.12324.31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711473993.DESKTOP-47QPH3P.12324.32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474052.DESKTOP-47QPH3P.12324.33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474112.DESKTOP-47QPH3P.12324.34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474172.DESKTOP-47QPH3P.12324.35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474232.DESKTOP-47QPH3P.12324.36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474291.DESKTOP-47QPH3P.12324.37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474351.DESKTOP-47QPH3P.12324.38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474410.DESKTOP-47QPH3P.12324.39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474469.DESKTOP-47QPH3P.12324.40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474529.DESKTOP-47QPH3P.12324.41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474588.DESKTOP-47QPH3P.12324.42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474647.DESKTOP-47QPH3P.12324.43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474707.DESKTOP-47QPH3P.12324.44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474766.DESKTOP-47QPH3P.12324.45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474825.DESKTOP-47QPH3P.12324.46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474884.DESKTOP-47QPH3P.12324.47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711474944.DESKTOP-47QPH3P.12324.48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475003.DESKTOP-47QPH3P.12324.49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475062.DESKTOP-47QPH3P.12324.50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475122.DESKTOP-47QPH3P.12324.51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475181.DESKTOP-47QPH3P.12324.52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475240.DESKTOP-47QPH3P.12324.53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475299.DESKTOP-47QPH3P.12324.54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475358.DESKTOP-47QPH3P.12324.55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475418.DESKTOP-47QPH3P.12324.56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475478.DESKTOP-47QPH3P.12324.57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475537.DESKTOP-47QPH3P.12324.58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475597.DESKTOP-47QPH3P.12324.59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475657.DESKTOP-47QPH3P.12324.60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475716.DESKTOP-47QPH3P.12324.61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475776.DESKTOP-47QPH3P.12324.62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475835.DESKTOP-47QPH3P.12324.63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475894.DESKTOP-47QPH3P.12324.64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711475954.DESKTOP-47QPH3P.12324.65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476013.DESKTOP-47QPH3P.12324.66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476072.DESKTOP-47QPH3P.12324.67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476132.DESKTOP-47QPH3P.12324.68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476191.DESKTOP-47QPH3P.12324.69" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476250.DESKTOP-47QPH3P.12324.70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476309.DESKTOP-47QPH3P.12324.71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476369.DESKTOP-47QPH3P.12324.72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476428.DESKTOP-47QPH3P.12324.73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476486.DESKTOP-47QPH3P.12324.74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/1711472040_Mar-26-2024-11-54-attempted_total_maze/PPO_0/events.out.tfevents.1711476545.DESKTOP-47QPH3P.12324.75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/1000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/10000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/11000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/12000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/13000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/14000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/15000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/16000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/17000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/18000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/19000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/2000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/20000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/21000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/22000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/23000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/24000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/25000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/26000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/27000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/28000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/29000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/3000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/30000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/31000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/32000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/33000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/34000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/35000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/36000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/37000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/38000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/39000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/4000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/40000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/41000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/42000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/43000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/44000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/45000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/46000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/47000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/48000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/49000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/5000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/50000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/51000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/52000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/53000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/54000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/55000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/56000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/57000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/58000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/59000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/6000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/60000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/61000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/62000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/63000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/64000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/65000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/66000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/67000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/68000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/69000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/7000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/70000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/71000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/72000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/73000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/74000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/75000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/8000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/1711472040/9000.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkmazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkmazeenv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1703879710/PPO_0/events.out.tfevents.1703879712.DESKTOP-47QPH3P.39948.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazeenv.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maze_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/maze_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazeenv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mazemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -62,41 +204,44 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2ZunogrOmp8CUFSdGyjQyf7P11B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.checkenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkmazeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedmazemodels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedsnake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedsnakemodels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.electricfield.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generated_maze.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lunar_lander.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maze_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maze_load_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazeenv2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazemodel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.passive_env_checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ppo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake_env.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snakeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snakegame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing-thing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/linkj/PycharmProjects/pythonProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.checkenv.executor": "Run",
+    "Python.checkmazeenv.executor": "Run",
+    "Python.copiedmazemodels.executor": "Run",
+    "Python.copiedsnake.executor": "Run",
+    "Python.copiedsnakemodels.executor": "Run",
+    "Python.electricfield.executor": "Run",
+    "Python.generated_maze.executor": "Run",
+    "Python.lunar_lander.executor": "Run",
+    "Python.maze_game.executor": "Debug",
+    "Python.maze_load_model.executor": "Run",
+    "Python.mazeenv.executor": "Run",
+    "Python.mazeenv2.executor": "Run",
+    "Python.mazemodel.executor": "Run",
+    "Python.passive_env_checker.executor": "Run",
+    "Python.ppo.executor": "Run",
+    "Python.snake_env.executor": "Run",
+    "Python.snakeenv.executor": "Run",
+    "Python.snakegame.executor": "Run",
+    "Python.testing-thing.executor": "Run",
+    "Python.testing2.executor": "Run",
+    "Python.testing3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/linkj/PycharmProjects/pythonProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject" />
@@ -209,14 +354,24 @@
       <option name="project" value="LOCAL" />
       <updated>1704255223285</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Returning with small edits">
+      <option name="closed" value="true" />
+      <created>1711395072954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711395072955</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="tried to make custom environment" />
     <MESSAGE value="tried to make custom environment x2" />
     <MESSAGE value="Debugged Custom Environment: not sure exactly what changed, but its better now" />
     <MESSAGE value="Tweaked timing and rewards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaked timing and rewards" />
+    <MESSAGE value="Returning with small edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returning with small edits" />
   </component>
 </project>

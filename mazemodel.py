@@ -11,8 +11,8 @@ print("now =", now)
 dt_string = now.strftime("%b-%d-%Y-%H-%M")
 
 
-models_dir = f"models/{int(time.time())}/_new2"
-logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-new2/"
+models_dir = f"models/{int(time.time())}/"
+logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-attempted_total_maze/"
 
 # Checks to see if the paths exist, otherwise makes the path
 if not os.path.exists(models_dir):
