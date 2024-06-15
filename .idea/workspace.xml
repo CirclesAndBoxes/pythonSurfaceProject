@@ -4,148 +4,132 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Returning with small edits">
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482003.DESKTOP-47QPH3P.7696.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482067.DESKTOP-47QPH3P.7696.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482131.DESKTOP-47QPH3P.7696.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482195.DESKTOP-47QPH3P.7696.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482259.DESKTOP-47QPH3P.7696.4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482323.DESKTOP-47QPH3P.7696.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482388.DESKTOP-47QPH3P.7696.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482452.DESKTOP-47QPH3P.7696.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482517.DESKTOP-47QPH3P.7696.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482581.DESKTOP-47QPH3P.7696.9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482646.DESKTOP-47QPH3P.7696.10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482708.DESKTOP-47QPH3P.7696.11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482771.DESKTOP-47QPH3P.7696.12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482832.DESKTOP-47QPH3P.7696.13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482896.DESKTOP-47QPH3P.7696.14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711482958.DESKTOP-47QPH3P.7696.15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483020.DESKTOP-47QPH3P.7696.16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483082.DESKTOP-47QPH3P.7696.17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483143.DESKTOP-47QPH3P.7696.18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483203.DESKTOP-47QPH3P.7696.19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483258.DESKTOP-47QPH3P.7696.20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483321.DESKTOP-47QPH3P.7696.21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483384.DESKTOP-47QPH3P.7696.22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483447.DESKTOP-47QPH3P.7696.23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483511.DESKTOP-47QPH3P.7696.24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483573.DESKTOP-47QPH3P.7696.25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711482002_Mar-26-2024-14-40-attempted_total_maze/PPO_0/events.out.tfevents.1711483635.DESKTOP-47QPH3P.7696.26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510014.DESKTOP-47QPH3P.19012.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510074.DESKTOP-47QPH3P.19012.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510135.DESKTOP-47QPH3P.19012.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510196.DESKTOP-47QPH3P.19012.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510259.DESKTOP-47QPH3P.19012.4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510319.DESKTOP-47QPH3P.19012.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510378.DESKTOP-47QPH3P.19012.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510437.DESKTOP-47QPH3P.19012.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510498.DESKTOP-47QPH3P.19012.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510559.DESKTOP-47QPH3P.19012.9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510619.DESKTOP-47QPH3P.19012.10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510678.DESKTOP-47QPH3P.19012.11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510737.DESKTOP-47QPH3P.19012.12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510797.DESKTOP-47QPH3P.19012.13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510859.DESKTOP-47QPH3P.19012.14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510920.DESKTOP-47QPH3P.19012.15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711510980.DESKTOP-47QPH3P.19012.16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511038.DESKTOP-47QPH3P.19012.17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511096.DESKTOP-47QPH3P.19012.18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511154.DESKTOP-47QPH3P.19012.19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511212.DESKTOP-47QPH3P.19012.20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511274.DESKTOP-47QPH3P.19012.21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511336.DESKTOP-47QPH3P.19012.22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511400.DESKTOP-47QPH3P.19012.23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511464.DESKTOP-47QPH3P.19012.24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511528.DESKTOP-47QPH3P.19012.25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511588.DESKTOP-47QPH3P.19012.26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511647.DESKTOP-47QPH3P.19012.27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511706.DESKTOP-47QPH3P.19012.28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511765.DESKTOP-47QPH3P.19012.29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511824.DESKTOP-47QPH3P.19012.30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511883.DESKTOP-47QPH3P.19012.31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711511942.DESKTOP-47QPH3P.19012.32" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512001.DESKTOP-47QPH3P.19012.33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512060.DESKTOP-47QPH3P.19012.34" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512119.DESKTOP-47QPH3P.19012.35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512177.DESKTOP-47QPH3P.19012.36" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512237.DESKTOP-47QPH3P.19012.37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512297.DESKTOP-47QPH3P.19012.38" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512356.DESKTOP-47QPH3P.19012.39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1711510012_Mar-26-2024-22-26-pos_rew/PPO_0/events.out.tfevents.1711512415.DESKTOP-47QPH3P.19012.40" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mazeenv2_(1711482002's environment).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/1000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/10000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/11000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/12000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/13000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/14000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/15000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/16000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/17000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/18000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/19000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/2000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/20000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/21000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/22000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/23000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/24000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/25000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/26000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/3000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/4000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/5000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/6000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/7000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/8000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711482002/9000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/1000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/10000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/11000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/12000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/13000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/14000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/15000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/16000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/17000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/18000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/19000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/2000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/20000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/21000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/22000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/23000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/24000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/25000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/26000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/27000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/28000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/29000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/3000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/30000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/31000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/32000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/33000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/34000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/35000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/36000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/37000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/38000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/39000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/4000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/40000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/5000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/6000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/7000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/8000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/1711510012/9000.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personal_use/tester.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ris_folder/ris_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ris_folder/ris_equation.py" afterDir="false" />
+    <list default="true" id="0efb52ee-01fc-44ce-ae50-4f428849e813" name="Changes" comment="Made equation, starting implementation">
+      <change afterPath="$PROJECT_DIR$/ris_folder/checkrisenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429087.DESKTOP-47QPH3P.10032.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429090.DESKTOP-47QPH3P.10032.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429094.DESKTOP-47QPH3P.10032.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429098.DESKTOP-47QPH3P.10032.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429100.DESKTOP-47QPH3P.10032.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429103.DESKTOP-47QPH3P.10032.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429106.DESKTOP-47QPH3P.10032.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429109.DESKTOP-47QPH3P.10032.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429112.DESKTOP-47QPH3P.10032.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429115.DESKTOP-47QPH3P.10032.9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429118.DESKTOP-47QPH3P.10032.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429122.DESKTOP-47QPH3P.10032.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429125.DESKTOP-47QPH3P.10032.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429128.DESKTOP-47QPH3P.10032.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429131.DESKTOP-47QPH3P.10032.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429134.DESKTOP-47QPH3P.10032.15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429137.DESKTOP-47QPH3P.10032.16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429140.DESKTOP-47QPH3P.10032.17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429144.DESKTOP-47QPH3P.10032.18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429147.DESKTOP-47QPH3P.10032.19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429149.DESKTOP-47QPH3P.10032.20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429152.DESKTOP-47QPH3P.10032.21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429155.DESKTOP-47QPH3P.10032.22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429158.DESKTOP-47QPH3P.10032.23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429161.DESKTOP-47QPH3P.10032.24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429164.DESKTOP-47QPH3P.10032.25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429167.DESKTOP-47QPH3P.10032.26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429169.DESKTOP-47QPH3P.10032.27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429172.DESKTOP-47QPH3P.10032.28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429175.DESKTOP-47QPH3P.10032.29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429177.DESKTOP-47QPH3P.10032.30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429180.DESKTOP-47QPH3P.10032.31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429183.DESKTOP-47QPH3P.10032.32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429186.DESKTOP-47QPH3P.10032.33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429188.DESKTOP-47QPH3P.10032.34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429191.DESKTOP-47QPH3P.10032.35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429194.DESKTOP-47QPH3P.10032.36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429196.DESKTOP-47QPH3P.10032.37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429199.DESKTOP-47QPH3P.10032.38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429202.DESKTOP-47QPH3P.10032.39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429204.DESKTOP-47QPH3P.10032.40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429207.DESKTOP-47QPH3P.10032.41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429210.DESKTOP-47QPH3P.10032.42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429212.DESKTOP-47QPH3P.10032.43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429215.DESKTOP-47QPH3P.10032.44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429218.DESKTOP-47QPH3P.10032.45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429220.DESKTOP-47QPH3P.10032.46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429223.DESKTOP-47QPH3P.10032.47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429226.DESKTOP-47QPH3P.10032.48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429228.DESKTOP-47QPH3P.10032.49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429231.DESKTOP-47QPH3P.10032.50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429234.DESKTOP-47QPH3P.10032.51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429236.DESKTOP-47QPH3P.10032.52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429239.DESKTOP-47QPH3P.10032.53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429241.DESKTOP-47QPH3P.10032.54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429244.DESKTOP-47QPH3P.10032.55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429247.DESKTOP-47QPH3P.10032.56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429249.DESKTOP-47QPH3P.10032.57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429252.DESKTOP-47QPH3P.10032.58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/logs/1718429086_Jun-15-2024-00-24-Ris_1/PPO_0/events.out.tfevents.1718429255.DESKTOP-47QPH3P.10032.59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/1000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/10000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/11000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/12000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/13000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/14000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/15000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/16000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/17000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/18000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/19000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/2000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/20000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/21000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/22000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/23000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/24000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/25000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/26000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/27000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/28000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/29000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/3000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/30000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/31000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/32000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/33000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/34000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/35000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/36000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/37000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/38000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/39000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/4000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/40000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/41000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/42000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/43000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/44000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/45000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/46000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/47000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/48000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/49000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/5000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/50000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/51000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/52000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/53000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/54000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/55000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/56000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/57000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/58000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/59000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/6000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/7000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/8000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/models/1718429086/9000.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ris_folder/ris_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazeenv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazeenv2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazemodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_use/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_use/tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ris_folder/ris_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/ris_folder/ris_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ris_folder/ris_equation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ris_folder/ris_equation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,40 +179,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.checkenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.checkmazeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedmazemodels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedsnake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.copiedsnakemodels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.electricfield.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generated_maze.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lunar_lander.executor&quot;: &quot;Run&quot;,
-    &quot;Python.maze_game.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.maze_load_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazeenv2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mazemodel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.passive_env_checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ppo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ris_equation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake_env.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snakeenv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snakegame.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing-thing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/linkj/PycharmProjects/pythonProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.checkenv.executor": "Run",
+    "Python.checkmazeenv.executor": "Run",
+    "Python.checkrisenv.executor": "Run",
+    "Python.copiedmazemodels.executor": "Run",
+    "Python.copiedsnake.executor": "Run",
+    "Python.copiedsnakemodels.executor": "Run",
+    "Python.electricfield.executor": "Run",
+    "Python.generated_maze.executor": "Run",
+    "Python.lunar_lander.executor": "Run",
+    "Python.maze_game.executor": "Debug",
+    "Python.maze_load_model.executor": "Run",
+    "Python.mazeenv.executor": "Run",
+    "Python.mazeenv2.executor": "Run",
+    "Python.mazemodel.executor": "Run",
+    "Python.passive_env_checker.executor": "Run",
+    "Python.ppo.executor": "Run",
+    "Python.ris_env.executor": "Run",
+    "Python.ris_equation.executor": "Run",
+    "Python.ris_model.executor": "Run",
+    "Python.snake_env.executor": "Run",
+    "Python.snakeenv.executor": "Run",
+    "Python.snakegame.executor": "Run",
+    "Python.tester.executor": "Run",
+    "Python.testing-thing.executor": "Run",
+    "Python.testing2.executor": "Run",
+    "Python.testing3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/linkj/PycharmProjects/pythonProject/ris_folder",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\linkj\PycharmProjects\pythonProject\ris_folder" />
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject" />
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject\models" />
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject\logs" />
@@ -239,7 +228,7 @@
       <recent name="C:\Users\linkj\PycharmProjects\pythonProject\venv1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ris_equation">
+  <component name="RunManager">
     <configuration name="generated_maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -378,8 +367,33 @@
       <option name="project" value="LOCAL" />
       <updated>1711483231134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Made equation, starting implementation">
+      <option name="closed" value="true" />
+      <created>1718414412337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718414412337</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -388,6 +402,7 @@
     <MESSAGE value="Debugged Custom Environment: not sure exactly what changed, but its better now" />
     <MESSAGE value="Tweaked timing and rewards" />
     <MESSAGE value="Returning with small edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Returning with small edits" />
+    <MESSAGE value="Made equation, starting implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made equation, starting implementation" />
   </component>
 </project>

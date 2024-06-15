@@ -2,6 +2,88 @@ import gymnasium as gym
 import numpy as np
 from gymnasium import spaces
 
+powerTransmitted = 1e16
+gVariables = 1
+dx = 1
+dy = 1
+# meters? This is for about 3 GHz
+wavelength = 0.1
+PI = 3.14159265358979323846
+E = 2.7182818284590452353602874713527
+# Written as M,N. i think we assume they're even
+numXCells, numYCells = 4, 4
+transmitterPosition = (100, 200, 300)
+receiverPosition = (-100, -210, 300)
+
+# cell[x][y] = (1, 2, 0) or something
+def cellPositions(tPos, rPos):
+    out = []
+    for x in range(numXCells):
+        out.append([])
+        for y in range(numYCells):
+            coordX = (1 - (numXCells / 2) + x) * dx
+            coordY = (1 - (numYCells / 2) + y) * dy
+            out[x].append((coordX, coordY, 0))
+    return out
+
+cellPos = cellPositions(transmitterPosition, receiverPosition)
+
+
+# Create and populate r values:
+#region
+rTransmitterDistances = []
+rReceiverDistances = []
+for x in range(numXCells):
+    rTransmitterDistances.append([])
+    rReceiverDistances.append([])
+    for y in range(numYCells):
+        receiveDistX = cellPos[x][y][0] - receiverPosition[0]
+        receiveDistY = cellPos[x][y][1] - receiverPosition[1]
+        receiveDistZ = cellPos[x][y][2] - receiverPosition[2]
+        rReceiverDistances[x].append(np.sqrt((receiveDistX ** 2) + (receiveDistY ** 2) + (receiveDistZ ** 2)))
+        transmitDistX = cellPos[x][y][0] - transmitterPosition[0]
+        transmitDistY = cellPos[x][y][1] - transmitterPosition[1]
+        transmitDistZ = cellPos[x][y][2] - transmitterPosition[2]
+        rTransmitterDistances[x].append(np.sqrt((transmitDistX ** 2) + (transmitDistY ** 2) + (transmitDistZ ** 2)))
+#endregion
+
+# This is the one that can be modified for each cell. It looks like a partial T. phi is a variable that can change
+##      gamma = A e^(j Phi)
+def gamma(phi):
+    return 1 * E ** (1J * phi)
+
+# Creating the inside of the summation notation
+def insideSum(n, m, phi):
+    out = (1 * gamma(phi) / (rTransmitterDistances[n][m] * rReceiverDistances[n][m]))
+    out = out * E ** (- 1J * 2 * PI * (rTransmitterDistances[n][m] + rReceiverDistances[n][m]) / wavelength)
+    return out
+#def doubleSum(phiList):
+
+# Slightly less calculation intense method of calculating the square of a magnitude of a complex:
+# https://www.geeksforgeeks.org/finding-magnitude-of-a-complex-number-in-python/
+def magnitude_squared(z):
+    return (z.real**2 + z.imag**2)
+
+# Summing together the double summation. Using 0 as a temp value of phi
+crazySummation = 0
+for m in range(numYCells):
+    for n in range(numXCells):
+        crazySummation += insideSum(n, m, 0)
+
+# Plug it all into the final value
+powerReturned = ((powerTransmitted * gVariables * dx * dy * (wavelength**2) / (64 * (PI ** 3))) *
+                 (magnitude_squared(crazySummation)))
+
+def givePower(phiList):
+    crazySummation = 0
+    for m in range(numYCells):
+        for n in range(numXCells):
+            # note: changed the value of phiList to account for the change in spaces
+            crazySummation += insideSum(n, m, phiList[m * numXCells + n] * PI + PI)
+
+    # Plug it all into the final value
+    return ((powerTransmitted * gVariables * dx * dy * (wavelength ** 2) / (64 * (PI ** 3))) *
+                     (magnitude_squared(crazySummation)))
 
 class RisEnv(gym.Env):
     """Custom Environment that follows gym interface."""
@@ -15,21 +97,43 @@ class RisEnv(gym.Env):
         # Trying to use continuous space actions:
         #   https://stable-baselines3.readthedocs.io/en/master/guide/rl_tips.html#tips-and-tricks-when-creating-a-custom-environment
         #   "Action space normalized and has interval range of 2. Gaussian distribution?"
-        self.action_space = spaces.Box(low=-1, high=1, shape=(n_actions,), dtype="float32")
+        # Trying shape is 16 because 4 x 4 sized box. Generates a list!
+        self.action_space = spaces.Box(low=-1, high=1, shape=(16,), dtype="float32")
         # Example for using image as input (channel-first; channel-last also works):
         self.observation_space = spaces.Box(low=-255, high=255,
-                                            shape=(N_CHANNELS, HEIGHT, WIDTH), dtype=np.float32)
+                                            shape=(17,), dtype=np.float32)
+
+
 
     def step(self, action):
+        self.num_actions += 1
+        if self.num_actions > 100:
+            self.done = True
+
+        reward = givePower(action)
+        observation = np.append(action, reward).astype(np.float32)
+        self.reward = reward
+        terminated = self.done
+        truncated = False
+        info = {}
 
         return observation, reward, terminated, truncated, info
 
     def reset(self, seed=None, options=None):
-        ...
+        if 'self.reward' in globals():
+            print(self.reward)
+
+        self.done = False
+        self.num_actions = 0
+
+        self.observation = np.array([0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],
+                                    dtype=np.float32)
+        observation = self.observation
+        info = {}
         return observation, info
 
-    def render(self):
-        ...
-
-    def close(self):
-        ...
+    # def render(self):
+    #     ...
+    #
+    # def close(self):
+    #     ...

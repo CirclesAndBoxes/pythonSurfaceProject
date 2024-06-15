@@ -5,7 +5,7 @@ import numpy as np
 powerReturned = 0
 
 # Defining some constants
-powerTransmitted = 1
+powerTransmitted = 1e16
 gVariables = 1
 dx = 1
 dy = 1
@@ -67,15 +67,24 @@ def insideSum(n, m, phi):
 def magnitude_squared(z):
     return (z.real**2 + z.imag**2)
 
+phiList = [-0.8165892,  -0.96166354, -0.78221714,  0.18471748, -0.6022426,   0.0777506,
+ -0.8130401,  -0.17920643,  0.19263078, -0.7356156,   0.15492606, -0.08065471,
+ -0.1400515,   0.42800143,  0.7372323,   0.13771912]
 # Summing together the double summation. Using 0 as a temp value of phi
 crazySummation = 0
 for m in range(numYCells):
     for n in range(numXCells):
-        crazySummation += insideSum(n, m, 0)
+        crazySummation += insideSum(n, m, PI + PI * phiList[m * numXCells + n])
 
 # Plug it all into the final value
 powerReturned = ((powerTransmitted * gVariables * dx * dy * (wavelength**2) / (64 * (PI ** 3))) *
                  (magnitude_squared(crazySummation)))
+
+checker = 0
+for m in range(numYCells):
+    for n in range(numXCells):
+        checker += abs(phiList[m * numXCells + n])
+print(checker)
 
 print(crazySummation)
 print(powerReturned)
