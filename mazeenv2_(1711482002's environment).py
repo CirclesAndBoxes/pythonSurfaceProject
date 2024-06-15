@@ -48,13 +48,13 @@ def been_here_last_two(position, last_position):
         return False
 
 
-class MazeEnv2(gym.Env):
+class MazeEnv2_2(gym.Env):
     """Custom Environment that follows gym interface."""
 
     # metadata = {"render_modes": ["human"], "render_fps": 30}
 
     def __init__(self):
-        super(MazeEnv2, self).__init__()
+        super(MazeEnv2_2, self).__init__()
         # Define action and observation space
         # They must be gym.spaces objects
         # Example when using discrete actions:
@@ -130,9 +130,8 @@ class MazeEnv2(gym.Env):
             self.reward = -100
             self.done = True
 
-        # BIG CHANGE
-        # ACTUALLY POSITIVE NOW
-        self.reward = 1
+
+        self.reward = -1
         # On collision "undo"
         if collision_with_boundaries(self.seen_position) == 1:
             if button_direction == 1:
@@ -147,7 +146,7 @@ class MazeEnv2(gym.Env):
             elif button_direction == 3:
                 self.seen_position[1] -= -70
                 self.player_pos[0] -= -1
-            self.reward = -10
+            self.reward = -5
         elif collision_with_maze(self.player_pos):
             if button_direction == 1:
                 self.seen_position[0] += -70
@@ -161,7 +160,7 @@ class MazeEnv2(gym.Env):
             elif button_direction == 3:
                 self.seen_position[1] -= -70
                 self.player_pos[0] -= -1
-            self.reward = -10
+            self.reward = -5
 
         # Checks if was in same place 2 steps ago:
         if been_here_last_two(self.player_pos, self.last_two_pos):
@@ -178,7 +177,7 @@ class MazeEnv2(gym.Env):
         if self.done and self.steps_left >= 0:
             self.reward = 300
         elif self.done:
-            self.reward = -200
+            self.reward = -100
 
 
 
@@ -224,7 +223,7 @@ class MazeEnv2(gym.Env):
 
         # Punishment if returning to previous position
         if self.been_maze[pos_y][pos_x] > 0:
-            self.reward -= 3
+            self.reward -= 1
 
         # Remember previous steps -- WARNING SOMEHOW GENERATES NEW BLOCKS IDK HOW BUT HOPEFULLY THIS CHANGES STUFF
         self.been_maze[pos_y][pos_x] += 3

@@ -12,7 +12,7 @@ dt_string = now.strftime("%b-%d-%Y-%H-%M")
 
 
 models_dir = f"models/{int(time.time())}/"
-logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-attempted_total_maze/"
+logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-pos_rew/"
 
 # Checks to see if the paths exist, otherwise makes the path
 if not os.path.exists(models_dir):
