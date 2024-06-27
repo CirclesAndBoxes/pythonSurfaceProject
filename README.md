@@ -1,5 +1,9 @@
 ## Important Folder Explanations:
 
+### ris_folder:
+  My current project: It has the major files needed for the RIS project
+  * ris_equation: I used this file to hash out the code needed to get the project working on its feet.
+
 ### Snake folder: 
   This folder has code from someone trying to make a snake game. I took their code to learn it
   
