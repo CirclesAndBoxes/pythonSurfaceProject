@@ -1,3 +1,6 @@
+# Scratch work to figure out the ris environment
+import jupyter_client
+import jupyter_core
 import numpy as np
 # Attempting to apply the formula given for just 2x2
 
@@ -86,5 +89,10 @@ for m in range(numYCells):
         checker += abs(phiList[m * numXCells + n])
 print(checker)
 
+print((powerTransmitted * gVariables * dx * dy * (wavelength**2) / (64 * (PI ** 3))))
+
 print(crazySummation)
+
 print(powerReturned)
+
+print(jupyter_core.__version__)

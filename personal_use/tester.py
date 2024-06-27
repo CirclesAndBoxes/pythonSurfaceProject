@@ -4,5 +4,8 @@
 import gym
 import numpy as np
 
+temp = np.random.randint(-1, 2, size=10, dtype=np.int32)
+print(temp)
+print(np.random.rand(3) * 200 - 100)
 action_space = gym.spaces.Box(low=-1, high=1, shape=(16,), dtype=np.float32)
 print(action_space.sample(mask=None))

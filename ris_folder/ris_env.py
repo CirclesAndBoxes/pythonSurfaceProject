@@ -1,7 +1,11 @@
 import gymnasium as gym
 import numpy as np
 from gymnasium import spaces
+# PPO Variables
+resetCount = 0
 
+
+# Equation variables
 powerTransmitted = 1e16
 gVariables = 1
 dx = 1
@@ -100,18 +104,21 @@ class RisEnv(gym.Env):
         # Trying shape is 16 because 4 x 4 sized box. Generates a list!
         self.action_space = spaces.Box(low=-1, high=1, shape=(16,), dtype="float32")
         # Example for using image as input (channel-first; channel-last also works):
-        self.observation_space = spaces.Box(low=-255, high=255,
-                                            shape=(17,), dtype=np.float32)
+        self.observation_space = spaces.Box(low=-500, high=500,
+                                            shape=(6,), dtype=np.float32)
 
 
 
     def step(self, action):
         self.num_actions += 1
-        if self.num_actions > 100:
+        if self.num_actions > 50:
             self.done = True
 
         reward = givePower(action)
-        observation = np.append(action, reward).astype(np.float32)
+        # Change observation to be the location of the transmitter and receiver
+        #
+        observation = np.array([transmitterPosition[0], transmitterPosition[1], transmitterPosition[2],receiverPosition[0], receiverPosition[1], receiverPosition[2]],
+                               dtype=np.float32)
         self.reward = reward
         terminated = self.done
         truncated = False
@@ -120,13 +127,22 @@ class RisEnv(gym.Env):
         return observation, reward, terminated, truncated, info
 
     def reset(self, seed=None, options=None):
+        global resetCount
+        global transmitterPosition
+        global receiverPosition
+        resetCount += 1
+        if resetCount % 100 == 1:
+            print(resetCount, transmitterPosition, receiverPosition)
+
+        transmitterPosition = np.random.rand(3) * 200 - 100
+        receiverPosition = np.random.rand(3) * 200 - 100
         if 'self.reward' in globals():
             print(self.reward)
 
         self.done = False
         self.num_actions = 0
 
-        self.observation = np.array([0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],
+        self.observation = np.array([transmitterPosition[0], transmitterPosition[1], transmitterPosition[2],receiverPosition[0], receiverPosition[1], receiverPosition[2]],
                                     dtype=np.float32)
         observation = self.observation
         info = {}
