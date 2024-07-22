@@ -61,7 +61,10 @@ def insideSum(n, m, phi):
     out = (1 * gamma(phi) / (rTransmitterDistances[n][m] * rReceiverDistances[n][m]))
     out = out * E ** (- 1J * 2 * PI * (rTransmitterDistances[n][m] + rReceiverDistances[n][m]) / wavelength)
     return out
-#def doubleSum(phiList):
+
+def maxSum(n, m):
+    out = (1 / (rTransmitterDistances[n][m] * rReceiverDistances[n][m]))
+    return out
 
 # Slightly less calculation intense method of calculating the square of a magnitude of a complex:
 # https://www.geeksforgeeks.org/finding-magnitude-of-a-complex-number-in-python/
@@ -89,6 +92,15 @@ def givePower(phiList):
     return ((powerTransmitted * gVariables * dx * dy * (wavelength ** 2) / (64 * (PI ** 3))) *
                      (magnitude_squared(crazySummation)))
 
+def giveMaxPower():
+    maxSummation = 0
+    for m in range(numYCells):
+        for n in range(numXCells):
+            maxSummation += maxSum(n, m)
+
+    return ((powerTransmitted * gVariables * dx * dy * (wavelength ** 2) / (64 * (PI ** 3))) *
+            (magnitude_squared(maxSummation)))
+
 class RisEnv(gym.Env):
     """Custom Environment that follows gym interface."""
     # Idk what this is for
@@ -111,10 +123,10 @@ class RisEnv(gym.Env):
 
     def step(self, action):
         self.num_actions += 1
-        if self.num_actions > 50:
+        if self.num_actions > 20:
             self.done = True
 
-        reward = givePower(action)
+        reward = 10 * (float(givePower(action)) / float(giveMaxPower())) - 5.0
         # Change observation to be the location of the transmitter and receiver
         #
         observation = np.array([transmitterPosition[0], transmitterPosition[1], transmitterPosition[2],receiverPosition[0], receiverPosition[1], receiverPosition[2]],
