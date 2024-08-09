@@ -1,4 +1,4 @@
-from stable_baselines3 import PPO, DDPG
+from stable_baselines3 import PPO, DDPG, A2C
 import os
 from ris_env import RisEnv
 from ris_env_const import RisEnvConst
@@ -14,11 +14,11 @@ dt_string = now.strftime("%b-%d-%Y-%H-%M")
 
 
 models_dir = f"models/{int(time.time())}/"
-logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-Rand_Pos_3"
+logdir = f"logs/{int(time.time())}" + "_" + dt_string + "-Rand_Pos_4"
 
 # Checks to see if the paths exist, otherwise makes the path
 if not os.path.exists(models_dir):
-    os.makedirs(models_dir)
+    os.makedirs(models_dir)  
 
 if not os.path.exists(logdir):
     os.makedirs(logdir)
@@ -30,7 +30,7 @@ env.reset()
 model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=logdir, seed=1, learning_rate=0.0001)
 
 # Will need to increase this... Since this kind of determines how long between each log.
-TIMESTEPS = 10000
+TIMESTEPS = 20000
 iters = 0
 for i in range(1, 10000):
     iters += 1

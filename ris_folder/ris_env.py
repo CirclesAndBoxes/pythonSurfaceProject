@@ -3,7 +3,7 @@ import numpy as np
 from gymnasium import spaces
 # PPO Variables
 resetCount = 0
-
+STEPS_BEFORE_RESET = 100
 
 # Equation variables
 powerTransmitted = 1e16
@@ -123,7 +123,7 @@ class RisEnv(gym.Env):
 
     def step(self, action):
         self.num_actions += 1
-        if self.num_actions > 20:
+        if self.num_actions > STEPS_BEFORE_RESET:
             self.done = True
 
         reward = 10 * (float(givePower(action)) / float(giveMaxPower())) - 5.0
