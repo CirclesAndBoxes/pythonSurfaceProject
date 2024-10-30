@@ -28,4 +28,4 @@
 
 ## Contributions:
 * https://stable-baselines3.readthedocs.io/en/master/
-* 
+* Thanks to @zchen71 for helping me as a mentor!
