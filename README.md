@@ -25,3 +25,7 @@
   Loads a model to "use" it
 ### maze_save_model.py
   Saves a model/Functionally the same as mazemodel.py.
+
+## Contributions:
+* https://stable-baselines3.readthedocs.io/en/master/
+* 
